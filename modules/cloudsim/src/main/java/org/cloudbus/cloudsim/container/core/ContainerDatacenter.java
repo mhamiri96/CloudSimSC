@@ -118,6 +118,10 @@ public class ContainerDatacenter extends SimEntity {
         getCharacteristics().setId(super.getId());
     }
 
+    public ServerlessDatacenter() {
+        //TODO Auto-generated constructor stub
+    }
+
     /**
      * Overrides this method when making a new and different type of resource. <br>
      * <b>NOTE:</b> You do not need to override {} method, if you use this method.
