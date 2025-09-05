@@ -1638,4 +1638,9 @@ public class Cloudlet {
         return getUtilizationModelBw().getUtilization(time);
     }
 
+    public void addRequiredProperty(String string, String hashFunction) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'addRequiredProperty'");
+    }
+
 }

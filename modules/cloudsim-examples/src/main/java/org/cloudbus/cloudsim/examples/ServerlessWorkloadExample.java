@@ -89,7 +89,9 @@ public class ServerlessWorkloadExample {
             // Use the ServerlessWorkloadReader to generate cloudlets from the trace file
             ServerlessWorkloadReader workloadReader = new ServerlessWorkloadReader(
                 "/home/mha/serverless/azurefunctions-dataset2019/invocations_per_function_md.anon.d01.csv", 
-                1000 // MIPS rating
+                1000,
+                500,
+                50 // MIPS rating
             );
             
             cloudletList = workloadReader.generateWorkload();
@@ -135,7 +137,7 @@ public class ServerlessWorkloadExample {
         List<Host> hostList = new ArrayList<Host>();
 
         // Create 5 hosts for the datacenter
-        int numHosts = 5;
+        int numHosts = 10;
         for (int i = 0; i < numHosts; i++) {
             // Each host has 4 PEs
             List<Pe> peList = new ArrayList<Pe>();
