@@ -37,6 +37,7 @@ public abstract class VmAllocationPolicy {
 		setHostList(list);
 	}
 
+	
 	/**
 	 * Allocates a host for a given VM.
 	 * 

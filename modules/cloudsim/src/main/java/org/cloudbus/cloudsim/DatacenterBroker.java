@@ -659,4 +659,9 @@ public class DatacenterBroker extends SimEntity {
 		this.datacenterRequestedIdsList = datacenterRequestedIdsList;
 	}
 
+	public void submitCloudlet(Cloudlet cloudlet) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'submitCloudlet'");
+	}
+
 }

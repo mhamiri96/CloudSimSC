@@ -472,6 +472,8 @@ public class Datacenter extends SimEntity {
 
 	}
 
+	
+
 	/**
 	 * Process the event for an User/Broker who wants to destroy a VM previously created in this
 	 * Datacenter. This Datacenter may send, upon request, the status back to the
